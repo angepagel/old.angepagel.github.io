@@ -1,1 +1,4 @@
-@import "./variables";
+@import "./fonts";
+@import "./variables"; // Bootstrap variables are overriden in this file! :^o
+
+@import "~bootstrap/scss/bootstrap"; // Bootstrap should be imported after _variables.scss! :^]
