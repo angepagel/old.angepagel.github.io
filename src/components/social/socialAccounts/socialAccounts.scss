@@ -1,0 +1,12 @@
+@import "../../../scss/variables";
+
+.social-accounts {
+
+    a.social-account {
+        transition: $transition-default;
+        margin: map-get($spacers, 2);
+        &:first-of-type { margin-left: 0; }
+        &:last-of-type { margin-right: 0; }
+    }
+    
+}
