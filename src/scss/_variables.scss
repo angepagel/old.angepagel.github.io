@@ -5,3 +5,27 @@
 // Override Bootstrap variables here! :^)
 
 $font-family-base: Inter;
+
+$spacers: (
+  0: 0,
+  1: 6px,
+  2: 10px,
+  3: 16px,
+  4: 26px,
+  5: 42px,
+  6: 68px
+);
+
+$theme-colors: (
+  "primary"     : #4b7bec,
+  "secondary"   : #706e7b,
+  "tertiary"    : #a4b0be,
+  "light"       : #efeff3,
+  "dark"        : #161618,
+  "success"     : #1dd1a1,
+  "danger"      : #e83e8c
+);
+
+// Custom variables :^|
+
+$transition-default: all 0.2s;
