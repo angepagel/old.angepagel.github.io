@@ -3,8 +3,18 @@
 
 @import "~bootstrap/scss/bootstrap"; // Bootstrap should be imported after _variables.scss! :^]
 
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+.text-consolas {
+    font-family: "Consolas";
+}
+
 section#about {
     background: $gradient-default;
+
+    p { font-size: 1.3em; }
 
     a.social-account {
         color: theme-color("secondary");

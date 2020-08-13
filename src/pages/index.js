@@ -15,9 +15,9 @@ export default class HomePage extends React.Component {
           <Container>
             <Row>
               <Col>
-                <div className="bg-white my-6 py-5 px-6">
-                  <h1>Bonjour</h1>
-                  <p>
+                <div className="bg-light my-6 py-5 px-6">
+                  <h1 className="display-3 font-weight-bold">Bonjour</h1>
+                  <p className="my-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus velit sed orci porttitor consectetur. Duis at risus ultrices, tristique mi in, vulputate arcu.
                   </p>
                   <SocialAccounts />
@@ -29,34 +29,34 @@ export default class HomePage extends React.Component {
         
         <Container>
           <Row className="my-6">
-            <Col>
+            <Col lg="6" className="mb-3 mb-lg-0">
               <section className="bg-light py-5 px-6">
-                <h1>Section 1</h1>
+                <h1>Heading 1</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus velit sed orci porttitor consectetur. Duis at risus ultrices, tristique mi in, vulputate arcu.
+                </p>
+                <h2>Heading 2</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus velit sed orci porttitor consectetur. Duis at risus ultrices, tristique mi in, vulputate arcu.
+                </p>
+                <h3>Heading 3</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus velit sed orci porttitor consectetur. Duis at risus ultrices, tristique mi in, vulputate arcu.
+                </p>
+                <h4>Heading 4</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus velit sed orci porttitor consectetur. Duis at risus ultrices, tristique mi in, vulputate arcu.
+                </p>
               </section>
             </Col>
-            <Col>
+            <Col lg="6" className="mt-3 mt-lg-0">
               <section className="bg-light py-5 px-6">
-                <h1>Section 2</h1>
+                <h1>Heading 1</h1>
+                <span className="text-consolas text-secondary">information 2020/01/01</span>
               </section>
             </Col>
           </Row>
         </Container>
-
-        <Container>
-          <Row className="my-6">
-            <Col>
-              <section className="bg-light py-5 px-6">
-                <h1>Section 3</h1>
-              </section>
-            </Col>
-            <Col>
-              <section className="bg-light py-5 px-6">
-                <h1>Section 4</h1>
-              </section>
-            </Col>
-          </Row>
-        </Container>
-
       </>
     );
   }

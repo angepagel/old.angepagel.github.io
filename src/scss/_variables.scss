@@ -28,6 +28,14 @@ $theme-colors: (
 
 $body-bg: #efeff3;
 
+$border-radius:     0;
+$border-radius-lg:  0;
+$border-radius-sm:  0;
+
+$btn-border-radius:     $border-radius;
+$btn-border-radius-lg:  $border-radius-lg;
+$btn-border-radius-sm:  $border-radius-sm;
+
 // Custom variables :^|
 
 $gradient-default: linear-gradient(150deg, #59fbff 0%, #7b59ff 100%);
