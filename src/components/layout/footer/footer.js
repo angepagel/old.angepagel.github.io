@@ -9,11 +9,11 @@ export default class Footer extends React.Component {
     
   render() {
     return (
-      <footer className="bg-dark text-secondary p-3">
+      <footer className="bg-dark text-secondary py-3">
         <Container>
           <Row>
             <Col>
-              © 2020 Ange Pagel. Tous droits réservés
+              © 2020 Ange Pagel. Tous droits réservés.
             </Col>
             <Col>
               <SocialAccounts className="float-right" />
