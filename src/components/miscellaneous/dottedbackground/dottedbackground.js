@@ -31,8 +31,8 @@ export default class DottedBackground extends React.Component {
 DottedBackground.defaultProps = {
   offsetX: 30,
   offsetY: 30,
-  width:  200,
-  height: 100,
+  width:  300,
+  height: 200,
   top:    false,
   bottom: false,
   left:   false,
