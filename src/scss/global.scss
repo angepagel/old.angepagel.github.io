@@ -3,6 +3,8 @@
 
 @import "~bootstrap/scss/bootstrap"; // Bootstrap should be imported after _variables.scss! :^]
 
+/* --------------------- GLOBAL --------------------- */
+
 h1, h2, h3, h4 {
     font-weight: bold;
 }
@@ -11,14 +13,26 @@ h1, h2, h3, h4 {
     font-family: "Consolas";
 }
 
-section#about {
-    background: $gradient-default;
+header.page-title {
+    width: fit-content;
+}
 
-    p { font-size: 1.3em; }
+/* --------------------- HOME --------------------- */
 
-    a.social-account {
-        color: theme-color("secondary");
-        &:hover { color: theme-color("primary"); }
+#home {
+
+    section#about {
+        background: $gradient-default;
+    
+        p {
+            font-size: 1.3em;
+        }
+    
+        a.social-account {
+            color: theme-color("secondary");
+            &:hover { color: theme-color("primary"); }
+        }
+    
     }
 
 }
