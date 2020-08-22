@@ -36,3 +36,28 @@ header.page-title {
     }
 
 }
+
+/* --------------------- BLOG & POSTS --------------------- */
+
+#blog, #blog-post {
+    .post-cover-img {
+        background-size: cover;
+        background-position: center;
+        background-color: theme-color("primary");
+    }
+}
+
+#blog {
+    .post-cover-img {
+        height: 234px;
+    }
+    .blog-posts > :last-child article {
+        margin-bottom: map-get($spacers, 6) !important;
+    }
+}
+
+#blog-post {
+    .post-cover-img {
+        height: 345px;
+    }
+}
