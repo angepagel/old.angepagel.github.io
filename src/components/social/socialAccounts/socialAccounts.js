@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { GitHub, Twitter, Linkedin, Mail } from "react-feather";
+import { GitHub, Twitter, Linkedin, Mail, MessageCircle } from "react-feather";
 
 import "./socialAccounts.scss";
 
@@ -17,6 +17,9 @@ export default class SocialAccounts extends React.Component {
         </a>
         <a className="social-account" rel="noopener noreferrer" href="https://www.linkedin.com/in/angepagel/" target="_blank" aria-label="Linkedin">
           <Linkedin />
+        </a>
+        <a className="social-account" rel="noopener noreferrer" href="https://t.me/angepagel" target="_blank" aria-label="Telegram">
+          <MessageCircle />
         </a>
         <a className="social-account" rel="noopener noreferrer" href="mailto:hello@angepagel.fr" target="_blank" aria-label="Email">
           <Mail />
