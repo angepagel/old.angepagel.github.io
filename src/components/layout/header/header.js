@@ -29,7 +29,7 @@ export default class Header extends React.Component {
                   </Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Link to="/blog" activeClassName="nav-active">
+                  <Link to="/blog" partiallyActive={true} activeClassName="nav-active">
                     Blog
                   </Link>
                 </Nav.Item>
