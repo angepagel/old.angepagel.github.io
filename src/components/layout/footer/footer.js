@@ -13,7 +13,7 @@ export default class Footer extends React.Component {
         <Container>
           <Row>
             <Col>
-              © 2020 Ange Pagel. Tous droits réservés.
+              © 2021 Ange Pagel. Tous droits réservés.
             </Col>
             <Col>
               <SocialAccounts className="float-right" />
