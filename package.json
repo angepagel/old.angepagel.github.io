@@ -1,5 +1,5 @@
 {
-  "name": "www.angepagel.fr",
+  "name": "angepagel.github.io",
   "private": true,
   "description": "Ange Pagel's personal website",
   "version": "0.1.0",
@@ -41,9 +41,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/angepagel/www.angepagel.fr"
+    "url": "https://github.com/angepagel/angepagel.github.io"
   },
   "bugs": {
-    "url": "https://github.com/angepagel/www.angepagel.fr/issues"
+    "url": "https://github.com/angepagel/angepagel.github.io/issues"
   }
 }
