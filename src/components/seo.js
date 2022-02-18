@@ -14,7 +14,7 @@ class SEO extends React.Component {
     return (
       <Helmet>
         {/* HTML Attributes */}
-        <html lang={this.props.lang} />
+        <html lang="fr" />
         {/* Title */}
         <title>{title}</title>
         {/* Meta */}
