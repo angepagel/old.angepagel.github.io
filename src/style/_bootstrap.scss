@@ -1,0 +1,51 @@
+/*
+  +-------------------------------------------------------------------------+
+  | This stylesheet takes advantage of Sass to customize Bootstrap classes. |
+  | See https://getbootstrap.com/docs/5.1/customize/sass/ for more details. |
+  +-------------------------------------------------------------------------+
+*/
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "~bootstrap/scss/functions";
+
+
+// 2. Include any default variable overrides here
+
+/* ------- Theme colors ------- */
+$theme-colors: (
+  "primary"     : #737ae8,
+  "secondary"   : #ced0d3,
+  "tertiary"    : #F3F3F8, // #e9ecef,
+  "light"       : #ffffff,
+  "dark"        : #21202e,
+  "dark-gray"   : #2c2b3d,
+  "success"     : #1ec268,
+  "warning"     : #ffc107,
+  "danger"      : #e74354,
+  "info"        : #61cbe6
+);
+
+/* ------- Tables ------- */
+// $table-striped-bg: map-get($theme-colors, 'secondary');
+// $table-striped-color:         $table-color;
+$table-striped-bg-factor:     .1;
+
+$table-striped-bg:            rgba(map-get($theme-colors, 'secondary'), $table-striped-bg-factor);
+
+$table-hover-color:           map-get($theme-colors, 'primary');
+$table-hover-bg-factor:       .075;
+$table-hover-bg:              rgba(map-get($theme-colors, 'primary'), $table-hover-bg-factor);
+
+$table-active-color:          $table-hover-color;
+$table-active-bg-factor:      $table-hover-bg-factor;
+$table-active-bg:             $table-hover-bg;
+
+/* ------- Border radius ------- */
+// $border-radius:     1rem;
+// $border-radius-sm:  0;
+$border-radius-lg:  .6rem;
+
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";

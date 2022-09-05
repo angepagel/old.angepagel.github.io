@@ -1,0 +1,86 @@
+/*
+  +---------------------------------------------+
+  | This stylesheet defines global style rules. |
+  +---------------------------------------------+
+*/
+
+@import "./fonts";
+@import './bootstrap';
+/* (Bootstrap must be imported AFTER the Bootstrap customization stylesheet!) */
+@import "~bootstrap/scss/bootstrap"; 
+
+
+header {
+  // .navbar {
+  
+  //     .navbar-brand {
+  //       a {
+  //         color: theme-color("light");
+  //         text-decoration: none;
+  //       }
+  //     }
+  
+  //     .navbar-toggler {
+  //       border: none;
+  //       outline: 0;
+  //       transition: all 0.3s;
+  
+  //       &.collapsed {
+  //         color: theme-color("secondary") !important;
+  //       }
+  
+  //       &:not(.collapsed) {
+  //         color: theme-color("primary") !important;
+  //       }
+  
+  //       &:hover {
+  //         color: theme-color("light") !important;
+  //       }
+  //     }
+  
+  //     .navbar-nav {
+  //       .nav-item {
+  //         margin: 0 map-get($spacers, 3);
+  
+  //         &:first-child {
+  //           margin-left: 0;
+  //         }
+  
+  //         &:last-child {
+  //           margin-right: 0;
+  //         }
+  
+  //         a {
+  //           display: inline-block;
+  //           color: theme-color("tertiary");
+  //           padding: map-get($spacers, 1) 0;
+  //           transition: $transition-default;
+  //           background: linear-gradient(to left, theme-color("primary"), theme-color("primary")) no-repeat bottom center !important;
+  //           background-size: 0% 2px !important;
+  
+  //           &:hover {
+  //             color: theme-color("light");
+  //             text-decoration: none;
+  //             background-size: 100% 2px !important;
+  //           }
+  
+  //           &:focus {
+  //             @extend :hover;
+  //           }
+  
+  //           &.nav-active {
+  //             @extend :hover;
+  //           }
+  //         }
+  //       }
+  //     }
+  
+  //   }
+}
+
+footer {
+//  a.social-account {
+//     color: theme-color("secondary");
+//     &:hover { color: theme-color("light"); }
+//   }
+}
