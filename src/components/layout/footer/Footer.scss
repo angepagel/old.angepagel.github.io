@@ -1,0 +1,13 @@
+@import "../../../style/bootstrap";
+
+footer {
+
+  a.social-account {
+    color: map-get($theme-colors, 'secondary');
+
+    &:hover {
+      color: map-get($theme-colors, 'light');
+    }
+  }
+
+}

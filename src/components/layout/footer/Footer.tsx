@@ -1,12 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import SocialAccounts from '../social/socialAccounts';
+import SocialAccounts from '../../social/SocialAccounts';
 
-
-// import './footer.scss';
+import './Footer.scss';
 
 export default function Footer() {
-    
+
   return (
     <footer className="bg-dark text-secondary py-3">
       <Container>
@@ -15,7 +14,9 @@ export default function Footer() {
             © 2021 Ange Pagel. Tous droits réservés.
           </Col>
           <Col>
-            <SocialAccounts className="float-right" />
+            <div className="d-flex justify-content-end">
+              <SocialAccounts className="float-end" />
+            </div>
           </Col>
         </Row>
       </Container>

@@ -1,0 +1,9 @@
+@import "../../style/bootstrap";
+
+.dot-grid {
+  position: absolute;
+  z-index: -1;
+  background-image: radial-gradient(map-get($theme-colors, 'tertiary') 1px, transparent 1px);
+  background-position: 0 0, 5px 5px;
+  background-size: 10px 10px;
+}

@@ -6,24 +6,35 @@
 */
 
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
-@import "~bootstrap/scss/functions";
+// @import "~/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/_functions.scss";
 
 
 // 2. Include any default variable overrides here
 
 /* ------- Theme colors ------- */
 $theme-colors: (
-  "primary"     : #737ae8,
-  "secondary"   : #ced0d3,
-  "tertiary"    : #F3F3F8, // #e9ecef,
+  "primary"     : #4b7bec,
+  "secondary"   : #706e7b,
+  "tertiary"    : #a4b0be,
   "light"       : #ffffff,
-  "dark"        : #21202e,
-  "dark-gray"   : #2c2b3d,
-  "success"     : #1ec268,
+  "dark"        : #161618,
+  "success"     : #1dd1a1,
   "warning"     : #ffc107,
-  "danger"      : #e74354,
+  "danger"      : #e83e8c,
   "info"        : #61cbe6
 );
+
+$spacers: (
+  0: 0,
+  1: 6px,
+  2: 10px,
+  3: 16px,
+  4: 26px,
+  5: 42px,
+  6: 68px
+);
+$font-family-base: Inter;
 
 /* ------- Tables ------- */
 // $table-striped-bg: map-get($theme-colors, 'secondary');

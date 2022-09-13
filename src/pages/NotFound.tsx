@@ -5,14 +5,8 @@ export default function NotFound() {
 
   return (
     <>
-    
       <Container>
-        <Row>
-          <Col>
-          </Col>
-          <Col>
-          </Col>
-        </Row>
+        <h1>404</h1>
       </Container>
     </>
   );

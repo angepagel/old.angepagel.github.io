@@ -1,13 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 // import { GitHub, Twitter, Linkedin, Mail, MessageCircle } from 'react-feather';
+import { GitHub, Twitter, Linkedin, Mail, MessageCircle } from 'react-feather';
 
-import './socialAccounts.scss';
+import './SocialAccounts.scss';
 
 export default function SocialAccounts() {
 
   return (
-    <div className={'social-accounts ' + this.props.className}>
+    // <div className={'social-accounts ' + this.props.className}>
+    <div className='social-accounts'>
       <a className="social-account" rel="noopener noreferrer" href="https://github.com/angepagel" target="_blank" aria-label="GitHub" title="GitHub">
         <GitHub />
       </a>

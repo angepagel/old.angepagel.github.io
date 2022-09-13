@@ -10,77 +10,43 @@
 @import "~bootstrap/scss/bootstrap"; 
 
 
-header {
-  // .navbar {
-  
-  //     .navbar-brand {
-  //       a {
-  //         color: theme-color("light");
-  //         text-decoration: none;
-  //       }
-  //     }
-  
-  //     .navbar-toggler {
-  //       border: none;
-  //       outline: 0;
-  //       transition: all 0.3s;
-  
-  //       &.collapsed {
-  //         color: theme-color("secondary") !important;
-  //       }
-  
-  //       &:not(.collapsed) {
-  //         color: theme-color("primary") !important;
-  //       }
-  
-  //       &:hover {
-  //         color: theme-color("light") !important;
-  //       }
-  //     }
-  
-  //     .navbar-nav {
-  //       .nav-item {
-  //         margin: 0 map-get($spacers, 3);
-  
-  //         &:first-child {
-  //           margin-left: 0;
-  //         }
-  
-  //         &:last-child {
-  //           margin-right: 0;
-  //         }
-  
-  //         a {
-  //           display: inline-block;
-  //           color: theme-color("tertiary");
-  //           padding: map-get($spacers, 1) 0;
-  //           transition: $transition-default;
-  //           background: linear-gradient(to left, theme-color("primary"), theme-color("primary")) no-repeat bottom center !important;
-  //           background-size: 0% 2px !important;
-  
-  //           &:hover {
-  //             color: theme-color("light");
-  //             text-decoration: none;
-  //             background-size: 100% 2px !important;
-  //           }
-  
-  //           &:focus {
-  //             @extend :hover;
-  //           }
-  
-  //           &.active {
-  //             @extend :hover;
-  //           }
-  //         }
-  //       }
-  //     }
-  
-  //   }
+$gradient-default: linear-gradient(150deg, #59fbff 0%, #7b59ff 100%);
+
+
+body {
+  background-color: #efeff3  ;
 }
 
-footer {
-//  a.social-account {
-//     color: theme-color("secondary");
-//     &:hover { color: theme-color("light"); }
-//   }
+/* --------------------- GLOBAL --------------------- */
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+
+.text-consolas {
+  font-family: "Consolas";
+}
+
+header.page-title {
+  width: fit-content;
+}
+
+/* --------------------- HOME --------------------- */
+
+#home {
+
+  section#about {
+      background: $gradient-default;
+  
+      p {
+          font-size: 1.3em;
+      }
+  
+      a.social-account {
+          color:  map-get($theme-colors, 'secondary');
+          &:hover { color:  map-get($theme-colors, 'primary'); }
+      }
+  
+  }
+
 }

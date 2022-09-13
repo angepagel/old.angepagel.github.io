@@ -1,11 +1,13 @@
-@import "../../../scss/variables";
+@import "../../style/bootstrap";
 
 .social-accounts {
-
-    a.social-account {
-        margin: map-get($spacers, 2);
-        &:first-of-type { margin-left: 0; }
-        &:last-of-type { margin-right: 0; }
+  a.social-account {
+    margin: map-get($spacers, 2);
+    &:first-of-type {
+      margin-left: 0;
     }
-    
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
 }

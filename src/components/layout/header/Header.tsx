@@ -3,7 +3,9 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
-export default function Navigation() {
+import './Header.scss';
+
+export default function Header() {
   return (
     <header>
       <Navbar className="bg-dark py-3" expand="lg">
@@ -18,7 +20,7 @@ export default function Navigation() {
           </Navbar.Toggle>
 
           <Navbar.Collapse id="navbar-nav">
-            <Nav className="ml-auto">
+            <Nav className="ms-auto">
               <Nav.Item>
                 <NavLink to="/">
                   Accueil
